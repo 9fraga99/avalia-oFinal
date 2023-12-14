@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: #F47F34;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Adicione este estilo se quiser um visual diferente para o botão de contato */
+nav #contato {
+    background-color: #ff6600;
+    border-radius: 5px;
+    
+}
+
+/* Estilo para o portfólio - você pode adicionar mais estilos conforme necessário */
+nav #portifolio {
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+.empresa{
+    background-color: #4CAF50;
+}
+.servico{
+    background-color: aqua;
+}
+.portifolio{
+    background-color: #F47F34;
+}
+.contato{
+    background-color: blueviolet;
+}
+h1{
+    text-align: center;
+    color:#6f0606
+
+}
